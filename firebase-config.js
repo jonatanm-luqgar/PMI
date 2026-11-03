@@ -1,9 +1,9 @@
-// Sustituye estos valores por los de tu proyecto Firebase (Configuración del proyecto > Tus aplicaciones).
-export const firebaseConfig = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "TU_PROYECTO.firebaseapp.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_PROYECTO.appspot.com",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID"
+const firebaseConfig = {
+  apiKey: "AIzaSyBLE7RsVTxN4Rxh8Ew4EsI0aM6h3I1GsOA",
+  authDomain: "gggg-5dc02.firebaseapp.com",
+  projectId: "gggg-5dc02",
+  storageBucket: "gggg-5dc02.firebasestorage.app",
+  messagingSenderId: "400115523734",
+  appId: "1:400115523734:web:cfe1b053caed2f1a2162b7",
+  measurementId: "G-66J2422Q5D"
 };
