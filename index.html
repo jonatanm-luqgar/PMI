@@ -46,5 +46,14 @@
   </div>
   <dialog id="itemDialog"><form method="dialog" id="itemForm"><div class="dialog-head"><div><p class="eyebrow">JONA OS</p><h2 id="dialogTitle">Nuevo elemento</h2></div><button class="icon-button" value="cancel" aria-label="Cerrar">×</button></div><div id="formFields" class="form-grid"></div><div class="dialog-actions"><button class="secondary" value="cancel">Cancelar</button><button class="primary" id="saveItem" value="default">Guardar</button></div></form></dialog>
   <div id="toast" class="toast" role="status"></div>
-  <script type="module" src="app.js"></script>
-</body></html>
+
+<!-- SDKs de Firebase Compat -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<!-- Archivos de la aplicación -->
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
